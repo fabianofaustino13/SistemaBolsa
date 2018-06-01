@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Usuário</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/base.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/login.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/botoes.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/responsive.css">
+</head>
+<body>
+	<!-- Início do container -->
+	<div class="container" >
+
+		<!-- Form -->
+		<form method="get" action="">
+
+			<!-- Div1 -->
+			<div class="form-row">
+
+				<!-- Nome -->
+				<div class="col-md-4 mb-3">
+					<label for="nome" class="required">Nome</label>
+					<input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required />
+				</div>
+				<!-- Fim nome -->
+
+				<!-- Sobrenome -->
+				<div class="col-md-8 mb-3">
+					<label for="sobrenome" class="required">Sobrenome</label>
+					<input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Sobrenome" required />
+				</div>
+				<!-- Fim sobrenome -->
+
+				<!-- CPF -->
+				<div class="col-md-4 mb-3">
+					<label for="cpf" class="required">CPF</label>
+					<input type="text" class="form-control" id="cpf" name="cpf" maxlength="11" placeholder="Somente números" required />
+				</div>
+				<!-- Fim CPF -->
+
+				<!-- Nome social -->
+				<div class="col-md-8 mb-3">
+					<label for="nome-social">Nome social</label>
+					<input type="text" class="form-control" id="nome-social" name="nome-social" placeholder="Nome social" />
+				</div>
+				<!-- Fim nome social -->
+
+				<!-- Nome da mãe -->
+				<div class="col-md-6 mb-3">
+					<label for="nome-mae" class="required">Nome da mãe</label>
+					<input type="text" class="form-control" id="nome-mae" name="nome-mae"  placeholder="Nome da mãe" required />
+				</div>
+				<!-- Fim nome da mãe -->
+
+				<!-- Nome do pai -->
+				<div class="col-md-6 mb-3">
+					<label for="nome-pai">Nome do pai</label>
+					<input type="text" class="form-control" id="nome-pai" name="nome-pai" placeholder="Nome do pai" />
+				</div>
+				<!-- Fim nome do pai -->
+
+				<!-- SIAPE -->
+				<div class="col-md-3 mb-3">
+					<label for="mat-siape">Matrícula SIAPE</label>
+					<input type="text" class="form-control" id="mat-siape" name="mat-siape" placeholder="Matrícula SIAPE" />
+				</div>
+			
+				<!-- Fim siape --> 
+
+				<!-- E-mail -->
+				<div class="col-md-3 mb-3">
+					<label for="email" class="required">E-mail</label>
+					<input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required />
+				</div>
+				<!-- Fim e-mail -->
+
+				<!-- Telefone -->
+				<div class="col-md-3 mb-3">
+					<label for="fone" class="required">Telefone</label>
+					<input type="text" class="form-control" id="fone" name="fone" placeholder="Telefone" required />
+				</div>
+				<!-- Fim telefone -->
+		
+				<!-- Data de nascimento -->
+				<div class="col-md-3 mb-3">
+					<label for="data-nascimento" class="required">Data de nascimento</label>
+					<input type="date" class="form-control" id="data-nascimento" name="data-nascimento" required />
+				</div>
+				<!-- Fim data de nascimento -->
+
+				<!-- Sexo -->
+				<div class="col-md-3 mb-3">
+					<div>
+						<label>Sexo</label>
+					</div>
+					<div class="custom-control custom-radio custom-control-inline">
+						<input type="radio" id="masc" name="sexo" value="masc" class="custom-control-input" required checked />
+						<label class="custom-control-label" for="masc">Masculino</label>
+					</div>
+					<div class="custom-control custom-radio custom-control-inline">
+						<input type="radio" id="fem" name="sexo" value="fem" class="custom-control-input" />
+						<label class="custom-control-label" for="fem">Feminino</label>
+					</div>
+					
+				</div>
+				<!-- Fim sexo -->
+
+			</div>
+			<!-- Fim Div1 -->
+
+			<!-- Botões -->
+			<div class="submit-row">
+				<button type="submit" value="Salvar" class="btn btn-success">Salvar</button>
+				<button type="reset" class="btn btn-warning">Limpar</button>
+			</div>
+			<!-- Fim Botões -->
+
+		</form>
+<!-- Fim Form -->
+</div>  
+<!-- Fim do container -->
+  
+</body>
+</html>

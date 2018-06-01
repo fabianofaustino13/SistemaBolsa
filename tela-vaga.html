@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Vagas</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/base.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/login.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/botoes.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/responsive.css">
+</head>
+<body>
+	<!-- Início do container -->
+	<div class="container" >
+
+		<!-- Form -->
+		<form method="get" action="">
+
+			<!-- Div1 -->
+			<div class="form-row">
+
+				<!-- Função no Edital-->
+				<div class="col-md-8 mb-3">
+					<label for="id_funcao" class="required">Função</label>
+					<input type="text" class="form-control" id="id_funcao" name="id_funcao" placeholder="Função no edital" required />
+				</div>
+				<!-- Fim função -->
+
+				<!-- Carga horária -->
+				<div class="col-md-2 mb-3">
+					<label for="id_carga-horaria" class="required">Carga horária</label>
+					<input type="text" class="form-control" id="id_carga-horaria" name="id_carga-horaria" placeholder="Carga horária/mês" required />
+				</div>
+				<!-- Fim Carga horária -->
+
+				<!-- Valor do função por mês -->
+				<div class="col-md-2 mb-3">
+					<label for="id_valor-mensal" class="required">Valor mensal</label>
+					<input type="text" class="form-control" id="id_valor-mensal" name="id_valor-mensal" placeholder="Valor mensal" required />
+				</div>
+				<!-- Fim valor da função -->
+
+			</div>
+			<!-- Fim Div1 -->
+
+			<!-- Botões -->
+			<div class="submit-row">
+				<button type="submit" value="Salvar" class="btn btn-success">Salvar</button>
+				<button type="reset" class="btn btn-warning">Limpar</button>
+			</div>
+			<!-- Fim Botões -->
+
+		</form>
+		<!-- Fim Form -->
+
+	</div>  
+	<!-- Fim do container -->
+
+</body>
+</html>

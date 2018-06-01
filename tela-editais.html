@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Editais</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/base.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/login.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/botoes.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/responsive.css">
+</head>
+<body>
+	<!-- Início do container -->
+	<div class="container" >
+
+		<!-- Form -->
+		<form method="get" action="">
+
+			<!-- Div1 -->
+			<div class="form-row">
+
+				<!-- Edital -->
+				<div class="col-md-12 mb-3">
+					<label for="nome-edital" class="required">Nome</label>
+					<input type="text" class="form-control" id="nome-edital" name="nome-edital" placeholder="Nome do edital" />
+				</div>
+				<!-- Fim edital -->
+
+				<!-- Descrição -->
+				<div class="col-md-12 mb-3">
+					<label for="descricao">Descrição</label>
+					<input type="text" class="form-control" id="descricao" name="descricao" placeholder="Descrição" />
+				</div>
+				<!-- Fim descrição -->
+
+				<!-- Link -->
+				<div class="col-md-12 mb-3">
+					<label for="link-edital" >Link</label>
+					<input type="text" class="form-control" id="link-edital" name="link-edital" placeholder="Link do edital" />
+				</div>
+				<!-- Fim link -->
+
+				<!-- Zona Programa (e-tec ou uab) -->
+				<div class="col-md-3 mb-3">
+					<div>
+						<label>Tipo de fomento</label>
+					</div>
+					<!-- etec -->
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" value="etec" id="etec" name="etec">
+						<label class="form-check-label" for="etec">e-Tec</label>
+					</div>
+					<!-- fim etec -->
+
+					<!-- uab -->
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" value="uab" id="uab" name="uab">
+						<label class="form-check-label" for="uab">UAB</label>
+					</div>
+					<!-- Fim uab -->
+
+				</div>
+				<!-- Fim programa -->
+
+			</div>
+			<!-- Fim Div1 -->
+
+			<!-- Botões -->
+			<div class="submit-row">
+				<button type="submit" value="Salvar" class="btn btn-success">Salvar</button>
+				<button type="reset" class="btn btn-warning">Limpar</button>
+			</div>
+			<!-- Fim Botões -->
+
+		</form>
+		<!-- Fim Form -->
+
+	</div>  
+	<!-- Fim do container -->
+
+</body>
+</html>

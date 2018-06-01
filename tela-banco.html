@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dados bancários</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/base.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/login.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/botoes.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/responsive.css">
+</head>
+<body>
+	<!-- Início do container -->
+	<div class="container" >
+
+		<!-- Form -->
+		<form method="get" action="">
+
+			<!-- Div1 -->
+			<div class="form-row">
+
+				<!-- Banco -->
+				<div class="col-md-12 mb-3">
+					<label for="banco" class="required">Banco</label>
+					<input type="text" class="form-control" id="banco" name="banco" placeholder="Banco" required />
+				</div>
+				<!-- Fim banco -->
+
+				<!-- Agência -->
+				<div class="col-md-4 mb-3">
+					<label for="agencia" class="required">Agência</label>
+					<input type="text" class="form-control" id="agencia" name="agencia" placeholder="Agência" required />
+				</div>
+				<!-- Fim agência -->
+
+				<!-- Conta -->
+				<div class="col-md-4 mb-3">
+					<label for="conta" class="required">Conta</label>
+					<input type="text" class="form-control" id="conta" name="conta" placeholder="Conta" required />
+				</div>
+				<!-- Fim conta -->
+
+				<!-- Operação -->
+				<div class="col-md-4 mb-3">
+					<label for="operacao">Operação</label>
+					<input type="text" class="form-control" id="operacao" name="operacao" placeholder="Operação" />
+				</div>
+				<!-- Fim operacao -->
+
+			</div>
+			<!-- Fim Div1 -->
+
+			<!-- Botões -->
+			<div class="submit-row">
+				<button type="submit" value="Salvar" class="btn btn-success">Salvar</button>
+				<button type="reset" class="btn btn-warning">Limpar</button>
+			</div>
+			<!-- Fim Botões -->
+
+		</form>
+		<!-- Fim Form -->
+
+	</div>  
+	<!-- Fim do container -->
+
+</body>
+</html>

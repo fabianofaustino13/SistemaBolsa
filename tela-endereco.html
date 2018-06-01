@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Endereço</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/base.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/login.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/botoes.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/responsive.css">
+</head>
+<body>
+	<!-- Início do container -->
+	<div class="container" >
+
+		<!-- Form -->
+		<form method="get" action="">
+
+			<!-- Div1 -->
+			<div class="form-row">
+
+				<!-- Endereço -->
+				<div class="col-md-8 mb-3">
+					<label for="endereco" class="required">Endereço</label>
+					<input type="text" class="form-control" id="endereco" name="endereco" placeholder="Endereço" required>
+				</div>
+				<!-- Fim endereço -->
+
+				<!-- Número -->
+				<div class="col-md-1 mb-3">
+					<label for="numero">Número</label>
+					<input type="text" class="form-control" id="numero" name="numero" placeholder="Número">
+				</div>
+				<!-- Fim número -->
+
+				<!-- Complemento -->
+				<div class="col-md-3 mb-3">
+					<label for="complemento">Complemento</label>
+					<input type="text" class="form-control" id="complemento" name="complemento" placeholder="Complemento">
+				</div>
+				<!-- Fim Complemento -->
+
+				<!-- Bairro -->
+				<div class="col-md-3 mb-3">
+					<label for="bairro" class="required">Bairro</label>
+					<input type="text" class="form-control" id="bairro" name="bairro" placeholder="Bairro" required>
+				</div>
+				<!-- Fim bairro -->
+
+				<!-- Cidade -->
+				<div class="col-md-3 mb-3">
+					<label for="cidade" class="required">Cidade</label>
+					<input type="text" class="form-control" id="cidade" name="cidade" placeholder="Cidade" required>
+				</div>
+				<!-- Fim Cidade -->
+
+				<!-- Estado -->
+				<div class="col-md-3 mb-3">
+					<label for="estado" class="required">Estado</label>
+					<input type="text" class="form-control" id="estado" name="estado" placeholder="Estado" required>
+				</div>
+				<!-- Fim Estado -->
+
+				<!-- CEP -->
+				<div class="col-md-3 mb-3">
+					<label for="cep" class="required">CEP</label>
+					<input type="text" class="form-control" id="cep" name="cep" placeholder="CEP" required>
+				</div>
+				<!-- Fim CEP -->
+
+				<!-- Estados -->
+				<!--   
+				<div class="form-group">
+					<label for="estado">Estado</label>
+					<select class="form-control" name="estado">
+						<option disabled selected>Seu estado</option>
+						<option value="ac">Acre</option>
+						<option value="al">Alagoas</option>
+						<option value="ap">Amapá</option>
+						<option value="am">Amazonas</option>
+						<option value="ba">Bahia</option>
+						<option value="ce">Ceará</option>
+						<option value="df">Distrito Federal</option>
+						<option value="es">Espírito Santo</option>
+						<option value="go">Goiás</option>
+						<option value="ma">Maranhão</option>
+						<option value="mt">Mato Grosso</option>
+						<option value="ms">Mato Grosso do Sul</option>
+						<option value="mg">Minas Gerais</option>
+						<option value="pa">Pará</option>
+						<option value="pb">Paraíba</option>
+						<option value="pr">Paraná</option>
+						<option value="pe">Pernambuco</option>
+						<option value="pi">Piauí</option>
+						<option value="rr">Roraima</option>
+						<option value="ro">Rondônia</option>
+						<option value="rj">Rio de Janeiro</option>
+						<option value="rn">Rio Grande do Norte</option>
+						<option value="rs">Rio Grande do Sul</option>
+						<option value="sc">Santa Catarina</option>
+						<option value="sp">São Paulo</option>
+						<option value="se">Sergipe</option>
+						<option value="to">Tocantins</option>
+					</select>
+				</div> -->
+				<!-- Fim Estados -->
+
+				<div class="col-md-3 mb-3">
+					<div class="form-group">
+						<label for="referencia">Referência</label>
+						<textarea class="form-control" id="referencia" name="referencia" rows="3"></textarea>
+					</div>
+				</div>
+
+				<!-- Zona residencial -->
+				<div class="col-md-3 mb-3">
+					<div>
+						<label>Zona Residencial</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="zona-residencial" id="zona-residencial" value="zona-urbana" checked>
+						<label class="form-check-label" for="zona-residencial">Urbana</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="zona-residencial" id="zona-rural" value="zona-rural">
+						<label class="form-check-label" for="zona-rural">Rural</label>
+					</div>
+					<!-- Fim zona rural -->
+				</div>
+				<!-- Fim zona residencial -->
+
+			</div>
+			<!-- Fim Div1 -->
+
+			<!-- Botões -->
+			<div class="submit-row">
+				<button type="submit" value="Salvar" class="btn btn-success">Salvar</button>
+				<button type="reset" class="btn btn-warning">Limpar</button>
+			</div>
+			<!-- Fim Botões -->
+
+		</form>
+		<!-- Fim Form -->
+
+	</div>  
+	<!-- Fim do container -->
+
+</body>
+</html>
